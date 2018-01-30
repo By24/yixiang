@@ -1,0 +1,64 @@
+.gywm {
+    height: 100%;
+    margin-top: 118px;
+}
+.title {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    background-image: url("../img/banner11.jpg")
+}
+.title>h3 {
+    font-size: 30px;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+.us-box{
+    width: 1200px;
+    overflow: hidden; 
+    margin: 50px auto;
+}
+.us-name {
+    float: left;
+    font: 20px 'Microsoft YaHei';
+    margin-right: 60px;
+}
+.us-name .active{
+	color: #000;
+	font-weight: bold;
+}
+.us-name li{
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+    color: #666;
+}
+.us-name li:hover{
+	color: #000;
+}
+.us-con {
+    width: 76%;
+    height: 800px;
+    float: left;
+}
+.us-list li {
+	margin-bottom:70px;
+}
+.us-list li div {
+    margin-bottom:20px;
+    font-size: 16px;
+    text-indent: 35px;
+    line-height: 30px;
+}
+.us-con-tit {
+    font: 20px 'Microsoft YaHei';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.us-con-img{
+    margin-left: -40px;
+}
+.footer{
+    width: 100%;
+}

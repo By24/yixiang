@@ -1,0 +1,143 @@
+.weixin-box {
+    width: 100%;
+    height: 631px;
+    background-image: url("../img/banner6.jpg");
+    margin-top: 118px;
+}
+
+.box-head {
+    overflow: hidden;
+}
+.box-head>img {
+    display: block;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.box-head>p {
+    float: left;
+    color: #000;
+    font: 32px 'Microsoft YaHei';
+}
+
+.box1-con {
+    overflow: hidden;
+    margin-top: 60px;
+    background: url("../img/12.png") no-repeat center;
+    height: 526px;
+    width: 1226px;
+}
+
+.box1-con>img {
+    display: block;
+    float: left;
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-top: 70px;
+}
+
+.box1-con>div {
+    float: left;
+    width: 740px;
+    margin-top: 160px;
+}
+
+.box1-con>div>p {
+    font: 20px 'Microsoft YaHei';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.box1-con>div div{
+    font: 18px 'Microsoft YaHei';
+    color: #666;
+    line-height: 27px;
+    margin-bottom:10px;
+    letter-spacing: 3px;
+}
+.left{
+    text-indent: 2em;
+}
+.box2-head>p {
+    color: #555;
+    font: 26px 'Microsoft YaHei';
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box2-head>div {
+    color: #777;
+    font: 18px 'Microsoft YaHei';
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box2-con1,.box2-con2{
+	height:150px;
+}
+.box2-con1 li,
+.box2-con2 li {
+    float: left;
+    width: 384px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box2-con2{
+	margin-bottom: 20px;
+}
+.box2-con1 li:hover,
+.box2-con2 li:hover {
+    box-shadow: 0 0 10px #555;
+}
+
+.box2-con1 li {
+    border: 1px solid #ebebeb;
+}
+
+.box2-con2 li {
+    background: #ebebeb;
+    width: 386px;
+    height: 152px;
+}
+
+.box2-con1 li>p,
+.box2-con2 li>p {
+    font: 18px 'Microsoft YaHei';
+    font-weight: bold;
+    color: #555;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.box2-con1 li>div,
+.box2-con2 li>div {
+    width: 335px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font: 16px 'Microsoft YaHei';
+}
+.box3>img{
+	margin-top: 15px;
+}
+.banner,
+.main-foot-t {
+    width: 1200px;
+    margin: 100px auto;
+}
+.main-foot {
+    padding: 70px 0 0 0;
+}
+.main-foot>input {
+    color: #333;
+    border: 1px solid #333;
+}
+.more{
+    display: block;
+    margin: 30px 0 60px 0;
+    position: relative;
+    top: -20px;
+    left: 550px;
+}

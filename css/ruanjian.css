@@ -1,0 +1,152 @@
+.ruanjian-box {
+    height: 100%;
+    margin-top: 118px;
+}
+.ruanjian-box-head {
+    width: 100%;
+    height: 631px;
+    background-image: url("../img/banner (2).jpg")
+}
+.ruanjian-box-head-tit {
+    position: relative;
+    top: 150px;
+    left: 360px;
+}
+.duanluo {
+    width: 730px;
+    overflow: hidden;
+}
+.module-s,
+.module-w,
+.module-s2，.module-c {
+    width: 1200px;
+    margin: 0 auto;
+}
+.module-s {
+    height: 750px;
+}
+.module-w {
+    height: 550PX;
+}
+.module-s2 {
+    height: 790px;
+}
+.module-c {
+    height: 1300px;
+}
+.moduleS-head,
+.moduleW-head,
+.moduleS2-head,
+.moduleC-head {
+    width: 390px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    left: 50px;
+}
+.moduleS-head>img,
+.moduleW-head>img,
+.moduleS2-head>img,
+.moduleC-head>img {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.moduleS-head>div,
+.moduleW-head>div,
+.moduleS2-head>div,
+.moduleC-head>div {
+    float: left;
+    font: 26px 'Microsoft YaHei';
+}
+.moduleS-box li {
+    width: 280px;
+    height: 298px;
+    float: left;
+    border: 1px solid #D2D2D2;
+    margin-left: 15px;
+    text-align: center;
+    padding: 100px 0;
+}
+.left{
+    text-align: left;
+    letter-spacing: 1px;
+}
+.moduleS-box li:hover {
+    border: 1px solid #42DCF8;
+}
+.moduleS-box_img2 {
+    display: none;
+}
+.moduleS-box li>p {
+    font: 22px 'Microsoft YaHei';
+    color: #555;
+    font-weight: bold;
+    margin: 50px 0;
+}
+.moduleS-box li>div {
+    width: 250px;
+    font-size: 16px;
+    color: #666666;
+    margin: 0 auto;
+}
+.moduleW-box-title>p {
+    color: #333;
+    font: 22px 'Microsoft YaHei';
+    text-align: center;
+    margin-bottom: 45px;
+}
+.moduleW-box-title>div {
+    color: #666;
+    font: 18px 'Microsoft YaHei';
+    text-align: center;
+}
+.moduleW-list {
+    overflow: hidden;
+    margin-top:40px;
+}
+.moduleW-list li {
+    float: left;
+    margin-right: 25px;
+}
+.moduleW-list li>img {
+    display: block;
+    margin: 20px auto;
+}
+.moduleW-list li>p {
+    color: #000;
+    font-weight: bold;
+    font: 18px 'Microsoft YaHei';
+    text-align: center;
+    margin-bottom: 20px;
+}
+.moduleW-list li>div {
+    color: #666;
+    font: 16px 'Microsoft YaHei';
+    text-align: center;
+}
+.moduleS2-box>p {
+    color: #000;
+    font-weight: bold;
+    font: 22px '黑体';
+    text-align: center;
+    margin-bottom: 10px;
+}
+.moduleS2-box>img {
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.main-foot {
+    padding: 20px 0 0 0;
+}
+.main-foot>input {
+    color: #333;
+    border: 1px solid #333;
+}
+.more{
+    display: block;
+    margin: 30px 0 60px 0;
+    position: relative;
+    top: -20px;
+    left: 550px;
+}

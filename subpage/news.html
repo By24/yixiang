@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="软件服务外包，APP定制，微信开发，智慧系统开发">
+    <meta name="description" content="成都忆享科技有限公司，专业软件服务外包，APP定制，微信开发，智慧系统开发。电话：4000008821">
+    <title>成都忆享科技有限公司</title>
+    <link rel="short icon" href="../img/main-logo.png">
+    <link rel="stylesheet" type="text/css" href="../css/hack.css">
+    <link rel="stylesheet" type="text/css" href="../css/news.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header wrapper clear">
+            <a href="../index.html">
+                <img src="../img/logo.png" />
+            </a>
+            <ul class="header-nav clear" id="header">
+                <li>
+                    <a href="../index.html" class="active">首页</a>
+                </li>
+                <li>
+                    <a href="app.html">APP开发</a>
+                </li>
+                <li>
+                    <a href="ruanjian.html">软件开发</a>
+                </li>
+                <li>
+                    <a href="wangye.html">网站开发</a>
+                </li>
+                <li>
+                    <a href="weixin.html">微信开发</a>
+                </li>
+                <li>
+                    <a href="game.html">手机游戏</a>
+                </li>
+                <li>
+                    <a href="yunying.html">运营维护</a>
+                </li>
+                <li>
+                    <a href="anli.html">案例展示</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="title">
+            <h3>新闻动态 NEWS</h3>
+        </div>
+        <div class="news-box">
+            <ul class="news-name">
+                <!--<li class="active">产品新闻 Product news</li>
+                <li>企业新闻 Company news</li>-->
+            </ul>
+            <div class="mod-li">
+                <ul id="newsGS" class="news-con news-list" style="display:block;">
+                    <!--  <li>
+	                    <a href="newsNR.html">
+	                        <div class="newsImg">
+                                <img src="../img/picture.jpg" alt="picture" />
+                            </div>
+	                        <div class="neiRong">
+	                            <p>《魔兽挂机》打造最强放置类手游</p>
+	                            <div class="newsCon">
+                                    <div>
+                                    小编今天终于见到了应邀接受采访的最新手机游戏《魔兽挂机》的主策郑荣俊，受访时郑荣俊的神色很是愉悦， 看来对这款新游戏充满了信心。这让小编不禁想起了当时郑荣俊作为主策离开了著名游戏公司……
+                                    </div>
+	                    
+                                </div>
+
+	                            <div class="time">
+	                                <img src="../img/xing3.png" alt="xing3" />
+	                                <p>2017-11-11</p>
+	                            </div>
+	                        </div>
+	                    </a>
+	                </li> -->
+                </ul>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="fenye" onselectstart="return false">
+            <div id="page" class="page_div">
+                <a id="firstPage">首页</a>
+                <a id="prePage">上一页</a>
+                <a class="current">1</a>
+                <a>2</a>
+                <a>3</a>. . .
+                <a>9</a>
+                <a id="nextPage">下一页</a>
+                <a id="lastPage">尾页</a>
+                <span class="totalPages">共
+                    <span>9</span>页
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-t wrapper">
+            <div class="footer-top">
+                <ul class="footer-nav clear">
+                    <li class="footer-nav-li">
+                        <div>关于我们</div>
+                        <ul>
+                            <li>
+                                <a href="guanyu.html">我们是谁</a>
+                            </li>
+                            <li>
+                                <a href="guanyu.html">我们服务的客户</a>
+                            </li>
+                            <li>
+                                <a href="guanyu.html">我们的团队</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-li">
+                        <div>新闻动态</div>
+                        <ul class="news">
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-li">
+                        <div>客户热线</div>
+                        <ul>
+                            <li class="number">4 0 0 - 0 0 0 -8 8 2 1</li>
+                            <li class="end-font">公司服务热线</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-foot">
+        <p class="p1">Copyright © 2012-2017 成都忆享科技有限公司 esharex.com</p>
+    </div>
+</body>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7ec668ad5aad113e8850a1de8aa64ce3";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script src="../lib/jQuery/jquery.min.js"></script>
+<script src="../js/paging.js"></script>
+
+
+<script>
+    $(function () {
+        $(".news-name>li").click(function () {
+            $(".news-name>li").removeClass("active");
+            $(this).addClass("active");
+            $(".mod-li>.news-list").hide();
+            $(".mod-li>.news-list").eq($(this).index()).show();
+            localStorage.newIndex = $(this).index();
+        });
+        //分页
+        $("#page").paging({
+            pageNo: 1,
+            totalPage: 9,
+            totalSize: 300,
+            callback: function (num) {
+                console.log(num);
+            }
+        })
+        var index = localStorage.newIndex,
+            li = $('.news-name li'),
+            mod = $('.mod-li');
+        li.eq(index).addClass('active').siblings().removeClass('active');
+        mod.children().eq(index).show().siblings().hide();
+    })
+</script>
+<script src="../js/newBridge.js"></script>
+<script src="../js/news.js"></script>
+
+</html>

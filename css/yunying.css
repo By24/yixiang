@@ -1,0 +1,159 @@
+.container {
+    position: relative;
+    top: 118px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.part11 .part2 .part3 {
+    width: 100%;
+    border: 1px solid;
+}
+.part1 .banner-content,
+.part2 .banner-content,
+.part3 .banner-content {
+    width: 1200px;
+    margin: 90px auto;
+    height: auto;
+}
+.part1 .banner-content .banner-title h2,
+.part2 .banner-content .banner-title h2,
+.part3 .banner-content .banner-title h2 {
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.part1 .banner-content .banner-title p {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: #666;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.banner-text {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.banner-text p,
+.banner-descrip {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: #777;
+}
+.part1 .banner-content h3 {
+    margin-top: 75px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.part1 .banner-add div {
+    margin: 50px 20px;
+}
+.part1 .banner-content .steps {
+    width: 100%;
+    margin-top: -10px;
+    position: relative;
+}
+.part1 .steps span {
+    display: inline-block;
+    color: #777;
+    font-size: 18px;
+    width: 185px;
+    margin-left: -13px;
+    margin-right: 25px;
+}
+.part1 .steps span:nth-child(2) {
+    position: absolute;
+    left: 230px;
+}
+
+.part1 .steps span:nth-child(3) {
+    position: absolute;
+    left: 445px;
+}
+.part1 .steps span:nth-child(4) {
+    position: absolute;
+    left: 630px;
+}
+.part1 .steps span:nth-child(5) {
+    position: absolute;
+    left: 855px;
+}
+.part1 .steps span:last-child {
+    position: absolute;
+    left: 1050px;
+}
+
+.part2 .banner-content .banner-title h2,
+.part3 .banner-content .banner-title h2 {
+    font-size: 30px;
+    color: #555;
+}
+.part2 .banner-content .banner-title p,
+.part3 .banner-content .banner-title p {
+    display: block;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+}
+.banner-list {
+    width: 1200px;
+    height: 640px;
+    margin-top: 55px;
+}
+.part2 .banner-list .list li {
+    width: 386px;
+    height: 204px;
+    float: left;
+    cursor: pointer;
+}
+.part2 .banner-list .list li:hover {
+    box-shadow: 0 0 10px #555;
+}
+.br,
+.bg {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.part2 .banner-list ul .br {
+    border: 1px solid #ebebeb;
+}
+
+.part2 .banner-list ul .bg {
+    background: #ebebeb;
+    width: 388px;
+}
+.part2 .banner-list li .title {
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #444;
+}
+.part2 .banner-list li .text {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 25px;
+}
+.part3 .banner-content img {
+    display: block;
+    margin: 60px auto;
+}

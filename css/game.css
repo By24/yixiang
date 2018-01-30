@@ -1,0 +1,168 @@
+.game-box {
+    height: 100%;
+    margin-top: 118px;
+}
+.game-box-head {
+    width: 100%;
+    height: 631px;
+    background-image: url("../img/minGame.jpg")
+}
+.game-box-head-tit {
+    position: relative;
+    top: 120px;
+    left: 600px;
+}
+.game-box-head div>h3 {
+    font: 34px '黑体';
+    font-weight: bold;
+    color: #42DCF8;
+    letter-spacing: 1px
+}
+
+.duanluo {
+    width: 670px;
+    overflow: hidden;
+    margin-top: 38px;
+}
+.duanluo>img {
+    display: block;
+    float: left;
+    margin-right: 12px;
+}
+.duanluo-img1 {
+    position: absolute;
+    top: 82px;
+    left: 8px;
+}
+.duanluo-img2 {
+    position: absolute;
+    top: 172px;
+    left: 8px;
+}
+.duanluo>p {
+    float: left;
+    width: 609px;
+    font: 20px 'Microsoft YaHei';
+    color: white;
+    padding-left: 42px;
+    letter-spacing: 2px
+}
+.module-p,
+.module-w,
+.module-c {
+    width: 1200px;
+    height: 100%;
+    margin: 80px auto;
+}
+.moduleP-head,
+.moduleW-head,
+.moduleC-head {
+    width: 390px;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-left: 430px;
+}
+.moduleP-head,
+.moduleW-head {
+    margin-bottom: 80px;
+}
+.moduleP-head>img {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.moduleP-head>div {
+    float: left;
+    font: 26px 'Microsoft YaHei';
+}
+.moduleP-box {
+    overflow: hidden;
+}
+.moduleP-box li {
+    width: 376px;
+    height: 298px;
+    float: left;
+    border: 1px solid #D2D2D2;
+    margin-left: 20px;
+    text-align: center;
+    padding: 100px 0;
+}
+.moduleP-box li>.left{
+    text-align: left;
+    letter-spacing:2px;
+}
+.moduleP-box li:hover {
+    border: 1px solid #42DCF8;
+}
+.moduleP-box_img2 {
+    display: none;
+}
+.moduleP-box li>p {
+    font: 22px 'Microsoft YaHei';
+    color: #555;
+    font-weight: bold;
+    margin: 50px 0;
+}
+.moduleP-box li>div {
+    width: 296px;
+    font-size: 16px;
+    color: #666666;
+    margin: 0 auto;
+}
+.moduleW-head>img {
+    display: block;
+    float: left;
+}
+.moduleW-head>div {
+    float: left;
+    font: 26px 'Microsoft YaHei';
+}
+.moduleW-box p {
+    font: 20px 'Microsoft YaHei';
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+.moduleW-box div {
+    font: 16px 'Microsoft YaHei';
+    color: #666;
+    margin-bottom: 70px;
+    padding-left: 25px;
+    text-indent: 2em;
+    letter-spacing: 1px;
+}
+.moduleW-box-1{
+	width: 420px;
+}
+.moduleW-box>img {
+    position: absolute;
+    top: 1850px;
+    left: 795px;
+}
+.moduleC-head>img {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.moduleC-head>div {
+    float: left;
+    font: 26px 'Microsoft YaHei';
+}
+.moduleC-box {
+    height: 1150px;
+}
+.main-foot-t {
+    height: 1100px;
+}
+.main-foot>input {
+    color: #333;
+    border: 1px solid #333;
+}
+.more {
+    display: block;
+    margin: 30px 0 60px 0;
+    position: relative;
+    top: -50px;
+    left: 550px;
+}

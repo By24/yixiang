@@ -1,0 +1,293 @@
+.app-box {
+    height: 100%;
+    margin-top: 118px;
+}
+.app-box-head {
+    width: 100%;
+    height: 631px;
+    background-image: url("../img/banner9.jpg")
+}
+.app-box-head-tit {
+    position: relative;
+    top: 100px;
+    left: 360px;
+}
+
+.duanluo {
+    width: 680px;
+    overflow: hidden;
+}
+.app-box-head-tit>img {
+    display: block;
+    position: relative;
+    top: -350px;
+    left: 900px;
+}
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.part1 {
+    margin-top: 60px;
+}
+.banner-bottom {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 746px;
+    left: 0;
+    bottom: 0;
+    background: #666;
+    text-align: center;
+}
+.part1 ul li a:hover {
+    color: #42dbfa;
+}
+.banner-nav {
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    left: 25%;
+    overflow: hidden;
+}
+.banner-nav li {
+    position: relative;
+    float: left;
+    width: 25%;
+    margin-bottom: 4px;
+}
+.banner-nav li a {
+    color: #fff;
+    height: 60px;
+    width: 80%;
+    line-height: 60px;
+    font-size: 18px;
+}
+.banner-nav li a.active {
+    color: #42dbfa;
+}
+.banner-nav li a.active span {
+    background: #42dbfa;
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+.banner-nav li a:hover {
+    color: #42dbfa;
+}
+.part2 {
+    margin-top: 130px;
+}
+.part2-head {
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.part2-head>img {
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.part2-head>p {
+    float: left;
+    color: #000;
+    font: 26px 'Microsoft YaHei';
+}
+.part2-box1 {
+    overflow: hidden;
+}
+.part2-box1>img {
+    display: block;
+    float: left;
+    margin-left: -42px;
+}
+.part2-box1>.part2-con {
+    float: left;
+    width: 815px;
+    margin-left: 49px;
+    margin-top: 70px;
+}
+.part2-con>p {
+    color: black;
+    font-weight: bold;
+    font: 18px '黑体';
+    margin-bottom: 5px;
+}
+.part2-con>ul {
+    margin-top: 50px;
+}
+.part2-con-list {
+    overflow: hidden;
+}
+.part2-con-list>img {
+    float: left;
+    margin-right: 10px;
+}
+.part2-con-list {
+    margin-bottom: 10px;
+}
+.part2-con-list>div {
+    width: 754px;
+    float: left;
+    font: 17px 'Microsoft YaHei';
+    margin-bottom: 5px;
+    color: #666;
+}
+.part2-box2 {
+    height: 350px;
+}
+.part2-box2-head {
+    overflow: hidden;
+    margin-top: 80px;
+}
+.part2-box2-head>.part2-box2-head-img1,
+.part2-box2-head>.part2-box2-head-img2,
+.part2-box2-head>p {
+    float: left;
+}
+.part2-box2-head>p {
+    font: 24px 'Microsoft YaHei';
+    color: #666;
+    margin: 0 15px;
+}
+.part2-box2-head>.part2-box2-head-img1,
+.part2-box2-head>.part2-box2-head-img2 {
+    position: relative;
+    top: 12px;
+}
+.part2-box2>ul {
+    overflow: hidden;
+    margin-top: 50px;
+}
+.part2-box2>ul li {
+    float: left;
+    width: 295px;
+    margin-right: 100px;
+}
+.part2-box2>ul li:hover div {
+    color: #42dbfa;
+}
+.part2-box2-img2 {
+    display: none;
+}
+.part2-box2>ul li>.part2-box2-img1,
+.part2-box2>ul li>.part2-box2-img2 {
+    margin: 0 auto;
+}
+.part2-box2>ul li>div {
+    font: 18px 'Microsoft YaHei';
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    margin-top: 40px;
+}
+.part3 {
+    height: 480px;
+}
+.titleName {
+    font: 24px 'Microsoft YaHei';
+    color: #888;
+    margin-bottom: 90px;
+}
+.part3-box {
+    overflow: hidden;
+}
+.part3-box li {
+    float: left;
+    width: 205px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.part3-box li:hover p {
+    color: #42dbfa;
+    font-weight: bold;
+}
+.part3-box li div {
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+.part3-box li div img {
+    width: 73px;
+    height: 73px;
+}
+
+.part3-box li p {
+    font: 18px 'Microsoft YaHei';
+    color: #222;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-left: -10px;
+}
+.part3-box2-img2 {
+    display: none;
+}
+.part4 {
+    height: 570px;
+}
+.part4-box1 {
+    overflow: hidden;
+}
+.part4-box1 li {
+    float: left;
+    width: 500px;
+    margin-right: 100px;
+}
+.part4-box1 li p {
+    font: 22px 'Microsoft YaHei';
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 40px;
+}
+.part4-box1 li div {
+    font: 18px 'Microsoft YaHei';
+    color: #666;
+    margin-bottom: 5px;
+}
+.part4-box2-con {
+    width: 1200px;
+    height: 150px;
+    background: url("../img/liucheng.png") no-repeat center 70px;
+    overflow: hidden;
+}
+.part4-box2-con1 {
+    position: relative;
+    left: 15px;
+}
+.part4-box2-con2 {
+    position: relative;
+    left: 22px;
+}
+.part4-box2-con3 {
+    position: relative;
+    left: 32px;
+}
+
+.part4-box2-con {
+    width: 1200px;
+}
+.part4-box2-con li {
+    float: left;
+    margin-left: 62px;
+    margin-right: 105px;
+    margin-top: 100px;
+    font: 18px 'Microsoft YaHei';
+    color: #222;
+}
+.part5 {
+    margin-bottom: 90px;
+}
+.main-foot>input {
+    color: #333;
+    border: 1px solid #333;
+}
+
+.more {
+    display: block;
+    margin: 30px 0 60px 0;
+    position: relative;
+    top: -20px;
+    left: 550px;
+}

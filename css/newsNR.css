@@ -1,0 +1,65 @@
+.min-new{
+    width: 100%;
+    height: auto;
+}
+.title {
+    width: 100%;
+    height: auto;
+    line-height: 200px;
+    margin-top: 118px;
+    background-image: url("../img/banner11.jpg")
+}
+.title>h3 {
+    font-size: 30px;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+.box{
+    width: 1200px;
+    margin: auto;
+}
+.box>p {
+    width: 1200px;
+    margin: 30px auto;
+}
+.box>p a {
+    font-size: 16px;
+    color: #000;
+}
+.box>p a:last-child{
+    color: #555;
+}
+.box-con {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box-con p.tit{
+	text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin:30px 0;
+    color: #000
+}
+.box-con div{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.box-con p{
+	font-size: 15px;
+	text-indent: 2em;
+    line-height: 2em;
+	margin-bottom: 1em;
+	color: #888;
+}
+.box-con p.text:last-child{
+    margin-bottom: 80px;
+}
+.box-con img{
+	display: block;
+	margin: 75px auto;
+}
+.box-con div span{
+    margin-right: 20px;
+}

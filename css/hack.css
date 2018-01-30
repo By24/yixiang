@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px "Microsoft YaHei";
+    word-wrap: break-word;
+}
+
+a,
+u,
+s,
+del {
+    color: #B2B2B2;
+    text-decoration: none
+}
+
+fieldset,
+a img,
+.bor0 {
+    border: 0;
+}
+
+i,
+em,
+b {
+    font-style: normal;
+    font-weight: 100;
+}
+
+li {
+    list-style: none
+}
+
+img {
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+/*细线边框*/
+
+.ind2 {
+    text-indent: 2em
+}
+
+
+/*溢出隐藏出现省略号*/
+
+.over {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*让图片垂直对齐方式*/
+
+.valign {
+    text-align: center;
+}
+
+.valign:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.valign img {
+    vertical-align: middle;
+}
+
+
+/*万能清除浮动法*/
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*联系我们*/
+
+.header {
+    height: 118px;
+    padding-bottom: 2px;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999999;
+}
+
+.header img {
+    float: left;
+    display: block;
+    width: 190px;
+    height: 42px;
+    margin-top: 45px;
+}
+
+.header-nav {
+    float: left;
+    display: block;
+    height: 42px;
+}
+
+.header-nav li {
+    float: left;
+    line-height: 120px;
+    margin-left: 40px;
+    width: 83px;
+}
+
+.header-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-nav li:hover a {
+    color: #42dbfa;
+    border-bottom: 2px solid #42dbfa;
+}
+
+.header-nav .active {
+    color: #42dbfa;
+    border-bottom: 2px solid #42dbfa;
+}
+
+
+/*foot*/
+
+.footer {
+    background-image: url("../img/xz1.png");
+}
+
+.footer-nav {
+    display: flex;
+    padding-bottom: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav-li {
+    width: 295px;
+    float: left;
+    color: white;
+    margin-top: 10px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.footer-nav-li ul li a {
+    margin-left: -27px;
+}
+
+.footer-nav-li:first-child>div,
+.footer-nav-li:first-child>ul li {
+    text-align: left;
+}
+
+.footer-nav-li:last-child>div,
+.footer-nav-li:last-child>ul li {
+    text-align: right;
+}
+
+.footer-nav-li:first-child>ul li,
+.footer-nav-li:last-child>ul li {
+    margin-left: 28px;
+}
+
+.footer-nav-li div {
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+}
+
+.footer-nav-li>ul li>a {
+    height: 40px;
+    line-height: 40px;
+    color: #B2B2B2;
+}
+
+.footer-foot {
+    background-image: url("../img/juxing8.png");
+}
+
+.footer-foot p {
+    width: 100%;
+    line-height: 70px;
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    margin-left: 350px;
+}
+
+.main-nav-f li>a {
+    color: #333;
+}
+
+.number {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.more {
+    background: rgba(0, 0, 0, 0);
+    width: 112px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.main-foot-t {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-nav-f li {
+    width: 390px;
+    height: 320px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.main-nav-f li dt img {
+    width: 390px;
+    height: 227px;
+    display: block;
+}
+
+
+/*--*/
+
+.main-nav-f li dd {
+    padding-left: 40px;
+    margin-top: 23px;
+}
+
+.foot-name {
+    font-size: 20px;
+}
+
+.foot-text {
+    width: 325px;
+    font-size: 16px!important;
+    white-space: nowrap;
+}
+
+.foot-text>p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 3px;
+}
+
+.main-nav-f li:hover {
+    box-shadow: 0 5px 5px #888888;
+    transition: all 0.5s linear;
+}
+
+.main-nav-f li:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}
+
+.main-nav-f li:hover dd>p {
+    color: #46D9FA
+}
+
+.main-nav-f li:hover dd>div {
+    color: #999;
+}
+
+.main-foot,
+.main-nav-f {
+    height: 1050px;
+}
+
+.allHead>h3 {
+    font: 56px 'Microsoft YaHei';
+    color: white;
+    letter-spacing: 5px;
+}
+
+.allCon {
+    color: white;
+    font: 22px 'Microsoft YaHei';
+    letter-spacing: 2px;
+    line-height: 36px;
+    margin-top: 38px;
+}
+
+
+/*联系我们*/
+#newBridge{
+    position: static !important;
+}
+
+#nb_icon_wrap .nb-icon-inner-wrap {
+    width: 200px !important;
+    height: 180px !important;
+    background: url("http://www.yxsrv.com/img/contUs.png") no-repeat center center !important;
+}
+
+#nb_icon_wrap .nb-icon-bridge-base {
+    display: none !important;
+}

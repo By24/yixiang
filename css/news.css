@@ -1,0 +1,174 @@
+body{
+    background-color: #F7F7F7;
+}
+.nesw {
+    width: 100%;
+    height: auto;
+}
+.title {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    margin-top: 118px;
+    background-image: url("../img/banner11.jpg")
+}
+
+.title>h3 {
+    font-size: 30px;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+.news-box{
+    width: 1200px;
+    /* height:900px; */
+    margin: 50px auto;
+}
+.news-name {
+    float: left;
+    font: 20px 'Microsoft YaHei';
+    margin-right: 60px;
+}
+
+.news-name li {
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+    color: #666;
+    cursor: pointer;
+}
+.news-name>.active{
+    color: #000!important;
+    font-weight: bold;
+}
+.news-name li:hover{
+	color: #000;
+}
+.mod-li{
+    width: 72%;
+    float: left;
+}
+.news-con  li{
+    height:156px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.news-con  li:hover{
+    box-shadow: 0 0 10px #555;
+}
+
+.news-con li a{
+    color: #333;
+    display: block;
+    height: 154px;
+    overflow: hidden;
+}
+.newsImg{
+    width: 210px;
+    height:150px;
+    float: left;
+    margin-right: 20px;
+}
+.newsImg>img{
+    width: 100%;
+    height: 100%;
+}
+.neiRong{
+    width: 588px;
+    height: 152px;
+    float: right;
+}
+.neiRong>p{
+    font: 16px 'Microsoft YaHei';
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.neiRong div{
+    width: 585px;
+    font: 14px 'Microsoft YaHei';
+    color: #AAAAAA;
+    margin-top: 15px;
+}
+
+.newsCon p{
+    width: 585px;
+    height:30px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.time{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.time>img{
+    float: left;
+    margin-right: 7px;
+}
+.time>p{
+    float: left;
+}
+
+
+/*分页插件*/
+.fenye{
+    margin: 40px auto 60px;
+}
+.page_div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: "microsoft yahei";
+    color: #666666;
+    margin-right: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+}
+/*页数按钮样式*/
+.page_div a {
+    min-width: 30px;
+    height: 28px;
+    border: 1px solid #dce0e0!important;
+    text-align: center;
+    margin: 0 4px;
+    cursor: pointer;
+    line-height: 28px;
+    color: #666666;
+    font-size: 13px;
+    display: inline-block;
+}
+#firstPage,
+#lastPage {
+    width: 50px;
+    color: #0073A9;
+    border: 1px solid #0073A9!important;
+}
+
+#prePage,
+#nextPage {
+    width: 70px;
+    color: #0073A9;
+    border: 1px solid #0073A9!important;
+}
+
+.page_div .current {
+    background-color: #0073A9;
+    border-color: #0073A9;
+    color: #FFFFFF;
+}
+
+.totalPages {
+    margin: 0 10px;
+}
+.totalPages span,
+.totalSize span {
+    color: #0073A9;
+    margin: 0 5px;
+}
+
